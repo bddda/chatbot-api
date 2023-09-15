@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2be62d49-11be-4708-bcc6-57d2bb0abc3e" name="Changes" comment="构建DDD">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-application/src/main/java/cn/bugstack/chatbot/api/application/ext/TaskRegistrarAutoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-application/src/main/java/cn/bugstack/chatbot/api/application/job/ChatbotTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-application/src/main/java/cn/bugstack/chatbot/api/application/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-common/src/main/java/cn.bugstack.chatbot.api.common/PropertyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/ai/IOpenAI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/ai/model/aggregates/AIAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/ai/model/vo/Choices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/ai/service/OpenAI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/IZsxqApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/aggregates/UnAnsweredQuestionsAggregates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/req/AnswerReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/req/ReqData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/res/AnswerRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/res/RespData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/vo/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/vo/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/vo/OwnerDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/vo/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/vo/Questionee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/vo/Topics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/vo/UserSpecific.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/service/ZsxqApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-infrastructure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-infrastructure/src/main/java/infrastructure/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-infrastructure/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-interfaces/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/main/java/api/ApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/test/SpringBootRunTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/ApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\java\software\apache-maven-3.8.6-bin\apache-maven-3.8.6" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../java/software/apache-maven-3.8.6-bin/apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\java\software\apache-maven-3.8.6-bin\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VOG6nCNIb10rDzUiZfukrgxfM1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/ChatGPTAI/chatbot-api/chatbot-api-interfaces/src/test/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ChatGPTAI\chatbot-api\chatbot-api-interfaces\src\test\java" />
+      <recent name="D:\ChatGPTAI\chatbot-api\chatbot-api-interfaces\src\main\resources" />
+      <recent name="D:\ChatGPTAI\chatbot-api\chatbot-api-interfaces\src\main\java" />
+      <recent name="D:\ChatGPTAI\chatbot-api\src\main\resources" />
+      <recent name="D:\ChatGPTAI\chatbot-api\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ChatGPTAI\chatbot-api" />
+      <recent name="D:\ChatGPTAI\chatbot-api\.idea" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SpringBootRunTest.test_openAi">
+    <configuration name="SpringBootRunTest.test_openAi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chatbot-api-interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SpringBootRunTest" />
+      <option name="METHOD_NAME" value="test_openAi" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="chatbot-api-interfaces" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="api.ApiApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SpringBootRunTest.test_openAi" />
+      <item itemvalue="Spring Boot.ApiApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringBootRunTest.test_openAi" />
+        <item itemvalue="Spring Boot.ApiApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2be62d49-11be-4708-bcc6-57d2bb0abc3e" name="Changes" comment="" />
+      <created>1694699540209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694699540209</updated>
+      <workItem from="1694699541281" duration="1778000" />
+      <workItem from="1694703847816" duration="40000" />
+      <workItem from="1694738539880" duration="2984000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="构建DDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="构建DDD" />
+  </component>
+</project>
