@@ -29,6 +29,11 @@ public class ApiTest {
         System.out.println(cronExpression);
     }
 
+    /**
+     * 单元测试
+     * @throws IOException
+     */
+
     @Test
     public void query_unanswered_questions() throws IOException {
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
@@ -38,6 +43,7 @@ public class ApiTest {
         get.addHeader("cookie", "知识星球个人cookie信息");
         get.addHeader("Content-Type", "application/json;charset=utf8");
 
+        //执行get请求
         CloseableHttpResponse response = httpClient.execute(get);
         if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
             String res = EntityUtils.toString(response.getEntity());
@@ -64,6 +70,7 @@ public class ApiTest {
                 "}";
 
         StringEntity stringEntity = new StringEntity(paramJson, ContentType.create("text/json", "UTF-8"));
+        //将实体对象放入post
         post.setEntity(stringEntity);
 
         CloseableHttpResponse response = httpClient.execute(post);

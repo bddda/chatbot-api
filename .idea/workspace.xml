@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2be62d49-11be-4708-bcc6-57d2bb0abc3e" name="Changes" comment="构建DDD">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-application/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatbot-api-application/src/main/java/cn/bugstack/chatbot/api/application/ext/TaskRegistrarAutoConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatbot-api-application/src/main/java/cn/bugstack/chatbot/api/application/job/ChatbotTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-application/src/main/java/cn/bugstack/chatbot/api/application/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-common/src/main/java/cn.bugstack.chatbot.api.common/PropertyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/ai/IOpenAI.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/ai/model/aggregates/AIAnswer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/ai/model/vo/Choices.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/ai/service/OpenAI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/package-info.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/IZsxqApi.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/aggregates/UnAnsweredQuestionsAggregates.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/req/AnswerReq.java" afterDir="false" />
@@ -36,17 +25,23 @@
       <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/vo/Topics.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/model/vo/UserSpecific.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/zsxq/service/ZsxqApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-infrastructure/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatbot-api-infrastructure/src/main/java/infrastructure/package-info.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatbot-api-infrastructure/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-interfaces/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/main/java/api/ApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/test/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/test/SpringBootRunTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/ApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/images/AI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/images/docker配置.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/images/zsxq.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/md/其他.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/md/第1节：工程创建和仓库使用.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/md/第2节：创建知识星球，爬取接口信息.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/md/第3节：知识星球接口领域服务开发.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/md/第4节：对接ChatGPT，调用接口.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/md/第5节：整合知识星球与ChatGPT，完成自动化回答.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/md/第6节：部署服务到 Docker 容器.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/md/第7节：多组任务服务配置.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ppt/ChatGPT AI 问答助手.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/domain/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/test/ApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,22 +87,23 @@
     "WebServerToolWindowFactoryState": "false",
     "deletionFromPopupRequiresConfirmation": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/ChatGPTAI/chatbot-api/chatbot-api-interfaces/src/test/java",
+    "last_opened_file_path": "D:/ChatGPTAI/chatbot-api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ChatGPTAI\chatbot-api" />
       <recent name="D:\ChatGPTAI\chatbot-api\chatbot-api-interfaces\src\test\java" />
       <recent name="D:\ChatGPTAI\chatbot-api\chatbot-api-interfaces\src\main\resources" />
       <recent name="D:\ChatGPTAI\chatbot-api\chatbot-api-interfaces\src\main\java" />
       <recent name="D:\ChatGPTAI\chatbot-api\src\main\resources" />
-      <recent name="D:\ChatGPTAI\chatbot-api\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ChatGPTAI\chatbot-api" />
@@ -122,6 +118,54 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.SpringBootRunTest.test_openAi">
+    <configuration name="ApiTest.answer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chatbot-api-interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ApiTest" />
+      <option name="METHOD_NAME" value="answer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.query_unanswered_questions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chatbot-api-interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ApiTest" />
+      <option name="METHOD_NAME" value="query_unanswered_questions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_chatGPT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chatbot-api-interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ApiTest" />
+      <option name="METHOD_NAME" value="test_chatGPT" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootRunTest.test_openAi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chatbot-api-interfaces" />
       <extension name="coverage">
@@ -152,12 +196,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.ApiTest.answer" />
+      <item itemvalue="JUnit.ApiTest.query_unanswered_questions" />
+      <item itemvalue="JUnit.ApiTest.test_chatGPT" />
       <item itemvalue="JUnit.SpringBootRunTest.test_openAi" />
       <item itemvalue="Spring Boot.ApiApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SpringBootRunTest.test_openAi" />
+        <item itemvalue="JUnit.ApiTest.test_chatGPT" />
+        <item itemvalue="JUnit.ApiTest.answer" />
+        <item itemvalue="JUnit.ApiTest.query_unanswered_questions" />
         <item itemvalue="Spring Boot.ApiApplication" />
       </list>
     </recent_temporary>
@@ -172,8 +222,16 @@
       <updated>1694699540209</updated>
       <workItem from="1694699541281" duration="1778000" />
       <workItem from="1694703847816" duration="40000" />
-      <workItem from="1694738539880" duration="2984000" />
+      <workItem from="1694738539880" duration="9505000" />
     </task>
+    <task id="LOCAL-00001" summary="构建DDD">
+      <created>1694741605359</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694741605359</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
